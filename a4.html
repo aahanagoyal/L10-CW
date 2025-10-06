@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>String operation using Search and Replace</h1>
+    <p id="r1"></p>
+    <p id="r2"></p>
+    <script>
+        var str="Mr.Mark has a yellow dog and a yellow hat";
+        var res=str.search("Mark");
+        document.getElementById("r1").innerHTML=res;
+        var res2 = str.replace("Mark","John");
+        document.getElementById("r2").innerHTML = res2;
+    </script>
+</body>
+</html>
